@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3461CFB41DE3DE93005FFEA7 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3461CFB31DE3DE93005FFEA7 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3461CFC11DE3DEF7005FFEA7 /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461CFBB1DE3DEF7005FFEA7 /* CircularGradient.swift */; };
+		3461CFC21DE3DEF7005FFEA7 /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461CFBC1DE3DEF7005FFEA7 /* RingLayer.swift */; };
+		3461CFC31DE3DEF7005FFEA7 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461CFBD1DE3DEF7005FFEA7 /* RingTip.swift */; };
+		3461CFC41DE3DEF7005FFEA7 /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461CFBE1DE3DEF7005FFEA7 /* ThreeRingView.swift */; };
+		3461CFC51DE3DEF7005FFEA7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461CFBF1DE3DEF7005FFEA7 /* Utilities.swift */; };
+		3461CFC61DE3DEF7005FFEA7 /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461CFC01DE3DEF7005FFEA7 /* Fanfare.swift */; };
+		3461CFC91DE3DF00005FFEA7 /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3461CFC71DE3DF00005FFEA7 /* coin07.mp3 */; };
+		3461CFCA1DE3DF00005FFEA7 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3461CFC81DE3DF00005FFEA7 /* winning.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3461CFB01DE3DE93005FFEA7 /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3461CFB31DE3DE93005FFEA7 /* ThreeRingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
 		3461CFB51DE3DE93005FFEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3461CFBB1DE3DEF7005FFEA7 /* CircularGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		3461CFBC1DE3DEF7005FFEA7 /* RingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		3461CFBD1DE3DEF7005FFEA7 /* RingTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		3461CFBE1DE3DEF7005FFEA7 /* ThreeRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		3461CFBF1DE3DEF7005FFEA7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3461CFC01DE3DEF7005FFEA7 /* Fanfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		3461CFC71DE3DF00005FFEA7 /* coin07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin07.mp3; sourceTree = "<group>"; };
+		3461CFC81DE3DF00005FFEA7 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,14 @@
 		3461CFB21DE3DE93005FFEA7 /* ThreeRingControl */ = {
 			isa = PBXGroup;
 			children = (
+				3461CFC71DE3DF00005FFEA7 /* coin07.mp3 */,
+				3461CFC81DE3DF00005FFEA7 /* winning.mp3 */,
+				3461CFBB1DE3DEF7005FFEA7 /* CircularGradient.swift */,
+				3461CFBC1DE3DEF7005FFEA7 /* RingLayer.swift */,
+				3461CFBD1DE3DEF7005FFEA7 /* RingTip.swift */,
+				3461CFBE1DE3DEF7005FFEA7 /* ThreeRingView.swift */,
+				3461CFBF1DE3DEF7005FFEA7 /* Utilities.swift */,
+				3461CFC01DE3DEF7005FFEA7 /* Fanfare.swift */,
 				3461CFB31DE3DE93005FFEA7 /* ThreeRingControl.h */,
 				3461CFB51DE3DE93005FFEA7 /* Info.plist */,
 			);
@@ -95,6 +119,7 @@
 				TargetAttributes = {
 					3461CFAF1DE3DE93005FFEA7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -120,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3461CFC91DE3DF00005FFEA7 /* coin07.mp3 in Resources */,
+				3461CFCA1DE3DF00005FFEA7 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3461CFC11DE3DEF7005FFEA7 /* CircularGradient.swift in Sources */,
+				3461CFC41DE3DEF7005FFEA7 /* ThreeRingView.swift in Sources */,
+				3461CFC31DE3DEF7005FFEA7 /* RingTip.swift in Sources */,
+				3461CFC51DE3DEF7005FFEA7 /* Utilities.swift in Sources */,
+				3461CFC21DE3DEF7005FFEA7 /* RingLayer.swift in Sources */,
+				3461CFC61DE3DEF7005FFEA7 /* Fanfare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +263,7 @@
 		3461CFB91DE3DE93005FFEA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -240,12 +274,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adv.ThreeRingControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3461CFBA1DE3DE93005FFEA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -256,6 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adv.ThreeRingControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -278,6 +316,7 @@
 				3461CFBA1DE3DE93005FFEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
